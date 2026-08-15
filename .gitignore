@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+test.db
+
+# Ignore large raw data and pickled models to keep repo lean
+data/raw/
+
+
